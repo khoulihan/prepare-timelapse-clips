@@ -108,7 +108,7 @@ def _prepare_padding_clip(seq_directory, dest):
             print (status.stderr)
 
 
-if __name__ == "__main__":
+def _main():
     args = _parse_arguments()
     try:
         try:
@@ -144,3 +144,7 @@ if __name__ == "__main__":
         # TODO: Maybe track some statistics and print them on exit.
         print()
         sys.exit(0)
+
+
+if __name__ == "__main__":
+    _main()
