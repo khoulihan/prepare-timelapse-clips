@@ -23,8 +23,6 @@ def _parse_arguments():
 
 def _verify_destination(destination, source):
     p = Path(destination)
-    if not p.is_absolute():
-        p = Path(source).joinpath(p)
     if not p.exists():
         p.mkdir()
     else:
@@ -44,8 +42,6 @@ def _verify_source(destination):
 def _prepare_clips(args):
     source = Path(args.source)
     dest = Path(args.destination)
-    if not dest.is_absolute():
-        dest = source.joinpath(dest)
 
     last_sequence_directory = None
     for child in sorted(source.glob('*')):
