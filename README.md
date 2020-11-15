@@ -20,7 +20,7 @@ An extra clip will also be generated based on the final frame of the last subdir
 prepareclips.py ~/timelapses/ldjam/
 ```
 
-An alternative destination can be specified with the `--destination` switch. If a relative path is provided, it will be assumed to be relative to the source directory.
+An alternative destination can be specified with the `--destination` switch.
 
 The framerate can be specified with the `--framerate` (`-f` for short) switch.
 
