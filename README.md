@@ -6,6 +6,8 @@ Copyright (c) 2019 by Kevin Houlihan
 
 License: MIT, see LICENSE for more details.
 
+**This repository has been [migrated to Codeberg](https://codeberg.org/hyh/prepare-timelapse-clips).**
+
 ## Prerequisites
 
 The script depends on Python 3.6 (though possibly earlier versions of Python 3 will work fine). The ffmpeg command line utility must be installed and available to the script.
